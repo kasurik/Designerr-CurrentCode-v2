@@ -418,13 +418,27 @@ align-content: center;
   flex-grow: 1;
   padding: 10px;
   border: none;
-  background-color: #333;
-  color: #fff;
+  background-color: #F2F5FF;
+  color: #000;
   font-size: 14px;
   border-radius: 0;
-  width: 500px; /* Adjust the width as desired */
+  width:50%; /* Adjust the width as desired */
+  /* justify-content: center; */
 }
 
+.bottom-input-set{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+}
+#input-container{
+   margin-left: 50%;
+   height: 25% !important;
+  
+
+}
 /* #user-input::placeholder {
   content: "\25BA Type your message...";
   padding-left: 10px;
@@ -435,13 +449,13 @@ align-content: center;
   outline: none;
 } */
 
-/* #send-button {
-  background-color: #333;
-  color: #fff;
+#send-button {
+  /* background-color: #333; */
+  /* color: #fff; */
   border: none;
-  padding: 5px 10px;
+  padding: 7px;
   cursor: pointer;
-} */
+}
 
 
 

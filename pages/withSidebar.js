@@ -208,28 +208,47 @@ export default function Home() {
                   />
                 </div>
 
-                {/* bottom-input-field */}
+                <div className="row " style={{ height: 200 }}>
+                  <div
+                    className="row d-flex justify-content-center bottom-input-set"
+                    style={{ backgroundColor: "#fff" }}
+                  >
+                    <div
+                      // className="p-2"
+                      style={{ backgroundColor: "transparent", height: 40 }}
+                      id="input-container"
+                    >
+                      {/* <div
+                      className="input-group mb-3 bg-transparent"
+                      class="input-wrapper"
+                    > */}
+                      <input
+                        style={{ height: 60 }}
+                        type="text"
+                        id="user-input"
+                        placeholder="Type your message..."
+                      />
 
-                <div className="row justify-content-md-center"></div>
-
-                <div className="position-relative">
-                  <input
-                    type="text"
-                    className="form-control lh-lg ps-5"
-                    placeholder="Enter the name of a form (e.g., “Oregon Lease Agreement”)"
-                  />
+                      <button id="send-button" style={{ height: 60 }}>
+                        {/* <span
+                          className="input-group-text bg-transparent"
+                          id="basic-addon2"
+                        > */}
+                        <Image
+                          src="/Group 1000003745.png"
+                          alt="My Image"
+                          width={25}
+                          height={25}
+                          className="me-2 cment_nofill"
+                        />
+                        {/* </span> */}
+                      </button>
+                    </div>
+                    {/* </div> */}
+                  </div>
                 </div>
-                <button type="button" className="btn btn-success my-5 home_btn">
-                  <span>
-                    <Image
-                      src="/Group 1000003745.png"
-                      alt="My Image"
-                      width={25}
-                      height={25}
-                      className="me-2"
-                    />
-                  </span>
-                </button>
+
+                {/* bottom-input-field */}
               </div>
             </div>
 
